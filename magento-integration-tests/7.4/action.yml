@@ -36,7 +36,7 @@ inputs:
     default: '1'
 runs:
   using: 'docker'
-  image: 'docker://extdn/magento-integration-tests-action:7.4-latest'
+  image: 'Dockerfile'
   env:
     MODULE_NAME: ${{ inputs.module_name }}
     COMPOSER_NAME: ${{ inputs.composer_name }}
